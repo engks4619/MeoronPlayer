@@ -12,7 +12,7 @@ public class SlidePagerAdapter extends FragmentStatePagerAdapter {
         super(fm);
     }      // FragmentStatePagerAdapter는 프레그먼트가 사라지면 프레그먼트 상태를 유지해준다
     @Override
-    public Fragment getItem(int position) {     // 하나의 페이지를 어떻게 만드는지(구성할지) 결정하는 역할
+    public Fragment getItem(int position) {     // 하나의 페이지를 어떻게 만드는지(구성할지) 결정하는 역할.
         switch (position) {
             case 0:
                 return SongFragment.newInstance(0,"title");
