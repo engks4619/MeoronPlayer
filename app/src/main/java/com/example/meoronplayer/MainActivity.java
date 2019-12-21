@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         /*
         int[] icons = {R.drawable.ic_one, R.drawable.ic_two, R.drawable.ic_three, R.drawable.ic_four, R.drawable.ic_five};
         for(int i=0; i<icons.length; i++) {
-            tabLayout.getTabAt(i).setIcon(icons[i]);
+            tabLayout.getTabAt(i).setIcon(icons[i]);이이잉 아쌀라마이쿰
         }
          */
 
