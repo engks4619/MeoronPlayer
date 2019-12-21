@@ -25,14 +25,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_tabslide); // ViewPager content view
+=======
+        setContentView(R.layout.activity_main); // ViewPager content view
+>>>>>>> 1fb97049827bd363ee6bf36dda68e896fc399468
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new SlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
+<<<<<<< HEAD
         //mPager.setPageTransformer(true, new ZoomOutTransformer());
         //mPager.setPageTransformer(true, new DepthPageTransformer());
+=======
+
+>>>>>>> 1fb97049827bd363ee6bf36dda68e896fc399468
 
         // Give the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
@@ -42,7 +50,11 @@ public class MainActivity extends AppCompatActivity {
         /*
         int[] icons = {R.drawable.ic_one, R.drawable.ic_two, R.drawable.ic_three, R.drawable.ic_four, R.drawable.ic_five};
         for(int i=0; i<icons.length; i++) {
+<<<<<<< HEAD
             tabLayout.getTabAt(i).setIcon(icons[i]);이이잉 아쌀라마이쿰
+=======
+            tabLayout.getTabAt(i).setIcon(icons[i]);
+>>>>>>> 1fb97049827bd363ee6bf36dda68e896fc399468
         }
          */
 

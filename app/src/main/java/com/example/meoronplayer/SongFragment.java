@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -43,5 +44,13 @@ public class SongFragment extends Fragment {
         TextView tvLabel = (TextView) view.findViewById(R.id.message);
         tvLabel.setText(page + " -- " + title);
         return view;
+=======
+import androidx.fragment.app.Fragment;
+
+public class SongFragment extends Fragment {
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.songfragment, container, false);
+>>>>>>> 1fb97049827bd363ee6bf36dda68e896fc399468
     }
 }
